@@ -1,7 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-#include<iostream>
-using namespace std;
-
 int FromHeadFindMin(int* a, int size)
 {
 	int min = 0;
@@ -49,18 +45,4 @@ int FindMin(int* a, int size)
 		}
 	}
 	return a[mid];
-}
-
-
-void TestFindMin()
-{
-	
-}
-
-
-int main()
-{
-	TestFindMin();
-	system("pause");
-	return 0;
 }
